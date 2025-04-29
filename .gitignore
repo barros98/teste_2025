@@ -1,0 +1,43 @@
+# === Arquivos gerados pelo R que não precisam ir para o GitHub ===
+.Rhistory
+.RData
+.Rapp.history
+.Rproj.user/
+.Ruserdata
+*.Rproj
+
+# === Dados locais que devem ser mantidos só no seu computador ===
+dados/
+data/
+*.csv
+*.rds
+*.xlsx
+*.sav
+*.txt
+*.json
+
+# === Arquivos temporários e de cache ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.~lock.*
+
+# === Configurações locais (editores, IDEs, ambiente) ===
+.vscode/
+.idea/
+*.env
+
+# === Outputs gerados por scripts ===
+outputs/
+results/
+figures/
+plots/
+relatorios/
+
+# === Git ignora arquivos do Windows/Mac ===
+.DS_Store
+Thumbs.db
+
+# === Pasta de pacotes locais (se você usa renv) ===
+renv/library/
